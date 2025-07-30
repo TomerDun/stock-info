@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    --text-head: #0d084d;
+    --text-info: #646374;
+    --accent: #3940e9;
+    --accent-hover: #272ed9;
+    --pallete-cyan: #46acf0;
+    --pallete-purple: #623cea;
+    --pallete-orange: #ff4a11;
+    --border: #dedede;
+
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+}

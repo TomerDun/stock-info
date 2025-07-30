@@ -1,0 +1,16 @@
+@import '../styles.css';
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid var(--border); */
+    border-radius: 4px;
+}
+
+.search-container h2 {
+    text-align: center;
+    color: var(--text-head);
+
+}
