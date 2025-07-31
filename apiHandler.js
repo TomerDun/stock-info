@@ -4,7 +4,7 @@ import { API_KEY } from "./secrets.js"
 const BASE_URL = 'https://financialmodelingprep.com/stable'
 
 
-async function searchSymbol(query, exchange='NASDAQ') {
+export async function searchSymbol(query, exchange='NASDAQ') {
     const url = `${BASE_URL}/search-symbol?apikey=${API_KEY}&exchange=${exchange}&query=${encodeURIComponent(query)}`;
     
 
