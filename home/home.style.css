@@ -14,3 +14,12 @@
     color: var(--text-head);
 
 }
+
+.search-row {
+    position: relative;
+}
+
+.results-container {
+    background-color: white;    
+    border: solid 1px var(--border)
+}
